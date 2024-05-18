@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Kolory podstawowe -->
+    <color name="colorPrimary">#d62828</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Kolory dodatkowe -->
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#eae2b7</color>
+
+    <!-- Kolory tła -->
+    <color name="colorBackground">#c1121f</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+
+    <!-- Kolor status bar -->
+    <color name="colorStatusBar">#c1121f</color>
+
+    <!-- Inne kolory -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>
