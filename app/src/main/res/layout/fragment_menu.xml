@@ -5,18 +5,395 @@
     android:layout_height="match_parent"
     tools:context=".MenuFragment">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#C1121F"
-        android:backgroundTint="@color/white"
-        android:orientation="vertical">
+        android:background="#dee2e6"
+        android:backgroundTint="#dee2e6">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="iunwaidun" />
+            android:orientation="vertical">
 
-    </LinearLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_background">
+
+                        <ImageView
+                            android:id="@+id/tile_image_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="xd"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/xd" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/tile_image_1"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tile_image_1_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="Description 1"
+                                android:textColor="#000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@drawable/baseline_near_me_24" />
+
+                                <TextView
+                                    android:id="@+id/tile_image_1_distance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Distance 1"
+                                    android:textColor="#adb5bd"
+                                    android:textSize="11dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_background">
+
+                        <ImageView
+                            android:id="@+id/tile_image_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="xd"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/xd"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/tile_image_2"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tile_image_2_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="Description 2"
+                                android:textColor="#000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@drawable/baseline_near_me_24" />
+
+                                <TextView
+                                    android:id="@+id/tile_image_2_distance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Distance 2"
+                                    android:textColor="#adb5bd"
+                                    android:textSize="11dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_background">
+
+                        <ImageView
+                            android:id="@+id/tile_image_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="xd"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/xd" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/tile_image_3"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tile_image_3_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="Description 3"
+                                android:textColor="#000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@drawable/baseline_near_me_24" />
+
+                                <TextView
+                                    android:id="@+id/tile_image_3_distance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Distance 3"
+                                    android:textColor="#adb5bd"
+                                    android:textSize="11dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_background">
+
+                        <ImageView
+                            android:id="@+id/tile_image_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="xd"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/xd" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/tile_image_4"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tile_image_4_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="Description 4"
+                                android:textColor="#000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@drawable/baseline_near_me_24" />
+
+                                <TextView
+                                    android:id="@+id/tile_image_4_distance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Distance 4"
+                                    android:textColor="#adb5bd"
+                                    android:textSize="11dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_background">
+
+                        <ImageView
+                            android:id="@+id/tile_image_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="xd"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/xd" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/tile_image_5"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tile_image_5_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="Description 5"
+                                android:textColor="#000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@drawable/baseline_near_me_24" />
+
+                                <TextView
+                                    android:id="@+id/tile_image_5_distance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Distance 5"
+                                    android:textColor="#adb5bd"
+                                    android:textSize="11dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_background">
+
+                        <ImageView
+                            android:id="@+id/tile_image_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:contentDescription="xd"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/xd" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/tile_image_6"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tile_image_6_description"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="Description 6"
+                                android:textColor="#000000" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@drawable/baseline_near_me_24" />
+
+                                <TextView
+                                    android:id="@+id/tile_image_6_distance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Distance 6"
+                                    android:textColor="#adb5bd"
+                                    android:textSize="11dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>
+
