@@ -7,10 +7,10 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 
-class Tile1Activity : AppCompatActivity() {
+class TileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tile1)
+        setContentView(R.layout.activity_tile)
 
         val backButton = findViewById<ImageButton>(R.id.back_button)
         val shareButton = findViewById<ImageButton>(R.id.share_button)

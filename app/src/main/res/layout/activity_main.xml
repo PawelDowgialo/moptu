@@ -1,45 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appBarLayout"
-        android:backgroundTint="?attr/colorPrimary"
+    <LinearLayout
+        android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
-            android:backgroundTint="?attr/colorPrimary"
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:title=" "
-            app:titleTextColor="?attr/colorOnPrimary"
-            app:navigationIcon="@drawable/baseline_menu_24"
-            app:menu="@menu/toolbar_menu"
-            >
-            <TextView
-                android:layout_width="wrap_content"
+            android:backgroundTint="?attr/colorPrimary">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/title_custom_font"
-                android:text="Przewodnik moptu"
-                android:textColor="@color/white"
-                android:textSize="18dp"/>
+                android:backgroundTint="@color/white"
+                app:title=" "
+                app:titleTextColor="@color/white"
+                app:navigationIcon="@drawable/baseline_menu_24"
+                app:navigationIconTint="@color/white"
+                app:menu="@menu/toolbar_menu">
 
-        </com.google.android.material.appbar.MaterialToolbar>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/title_custom_font"
+                    android:text="Przewodnik moptu"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+            </com.google.android.material.appbar.MaterialToolbar>
 
-    <FrameLayout
-        android:id="@+id/fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        </com.google.android.material.appbar.AppBarLayout>
 
-    </FrameLayout>
-</LinearLayout>
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/no_radius_background"
+        android:backgroundTint="@color/white"
+        app:headerLayout="@layout/nav_header"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/drawer_menu"
+        app:itemIconTint="#216DBA"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

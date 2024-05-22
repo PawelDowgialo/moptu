@@ -7,14 +7,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#dee2e6"
-        android:backgroundTint="#dee2e6">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#dee2e6">
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -82,7 +81,7 @@
                         </LinearLayout>
 
                     </RelativeLayout>
-
+                </TableRow>
                     <RelativeLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -143,7 +142,7 @@
 
                     </RelativeLayout>
 
-                </TableRow>
+
 
                 <TableRow>
 
