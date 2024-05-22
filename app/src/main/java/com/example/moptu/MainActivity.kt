@@ -30,13 +30,19 @@ class MainActivity : AppCompatActivity() {
         navigationView.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.nav_item1 -> {
-                    // Handle navigation item 1 click
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, SearchFragment())
+                        .commit()
                 }
                 R.id.nav_item2 -> {
-                    // Handle navigation item 2 click
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, MenuFragment())
+                        .commit()
                 }
                 R.id.nav_item3 -> {
-                    // Handle navigation item 3 click
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, InfoFragment())
+                        .commit()
                 }
             }
             drawerLayout.closeDrawer(navigationView)
