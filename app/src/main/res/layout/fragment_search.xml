@@ -24,10 +24,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:singleLine="true"
                 android:hint="Wyszukaj..."
-                android:textAlignment="center"
                 android:padding="10dp"
-                android:textColorHint="@android:color/black"/>
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
 
             <ImageView
                 android:id="@+id/imageView_search"
@@ -35,7 +38,6 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/baseline_search_24"
                 android:padding="8dp"
-                android:clickable="true"
                 android:layout_gravity="center"
                 android:contentDescription="Search"/>
 

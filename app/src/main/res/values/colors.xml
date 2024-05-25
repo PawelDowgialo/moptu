@@ -6,8 +6,8 @@
     <color name="colorOnPrimary">#FFFFFF</color>
 
     <!-- Kolory dodatkowe -->
-    <color name="colorSecondary">#03DAC5</color>
-    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorSecondary">#216DBA</color>
+    <color name="colorSecondaryVariant">#216DBA</color>
     <color name="colorOnSecondary">#eae2b7</color>
 
     <!-- Kolory tła -->

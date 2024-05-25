@@ -34,9 +34,9 @@
                             android:id="@+id/tile_image_1"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:contentDescription="xd"
+                            android:contentDescription="Jura Krakowsko-Częstochowska"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/xd" />
+                            android:src="@drawable/jurakrakowskoczestochowska_zdj" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="#FFFFFF"
                                 android:gravity="center"
-                                android:text="Description 1"
+                                android:text="Jura Krakowsko-Częstochowska"
                                 android:textColor="#000000" />
 
                             <LinearLayout
@@ -72,7 +72,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="Distance 1"
+                                    android:text="519 km"
                                     android:textColor="#adb5bd"
                                     android:textSize="11dp" />
 
@@ -93,9 +93,9 @@
                             android:id="@+id/tile_image_2"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:contentDescription="xd"
+                            android:contentDescription="biebrzanskiparknarodowy_zdj"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/xd"
+                            android:src="@drawable/biebrzanskiparknarodowy_zdj"
                             />
 
                         <LinearLayout
@@ -112,7 +112,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="#FFFFFF"
                                 android:gravity="center"
-                                android:text="Description 2"
+                                android:text="Biebrzański Park Narodowy"
                                 android:textColor="#000000" />
 
                             <LinearLayout
@@ -132,7 +132,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="Distance 2"
+                                    android:text="189 km"
                                     android:textColor="#adb5bd"
                                     android:textSize="11dp" />
 
@@ -157,9 +157,9 @@
                             android:id="@+id/tile_image_3"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:contentDescription="xd"
+                            android:contentDescription="sandomierz_zdj"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/xd" />
+                            android:src="@drawable/sandomierz_zdj" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -175,7 +175,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="#FFFFFF"
                                 android:gravity="center"
-                                android:text="Description 3"
+                                android:text="Sandomierz"
                                 android:textColor="#000000" />
 
                             <LinearLayout
@@ -195,7 +195,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="Distance 3"
+                                    android:text="455 km"
                                     android:textColor="#adb5bd"
                                     android:textSize="11dp" />
 
@@ -216,9 +216,9 @@
                             android:id="@+id/tile_image_4"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:contentDescription="xd"
+                            android:contentDescription="wolinski_zdj"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/xd" />
+                            android:src="@drawable/wolinski_zdj" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -234,7 +234,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="#FFFFFF"
                                 android:gravity="center"
-                                android:text="Description 4"
+                                android:text="Wolin"
                                 android:textColor="#000000" />
 
                             <LinearLayout
@@ -254,7 +254,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="Distance 4"
+                                    android:text="513 km"
                                     android:textColor="#adb5bd"
                                     android:textSize="11dp" />
 
@@ -279,9 +279,9 @@
                             android:id="@+id/tile_image_5"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:contentDescription="xd"
+                            android:contentDescription="borytucholskie_zd"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/xd" />
+                            android:src="@drawable/borytucholskie_zdj" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -297,7 +297,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="#FFFFFF"
                                 android:gravity="center"
-                                android:text="Description 5"
+                                android:text="Bory Tucholskie"
                                 android:textColor="#000000" />
 
                             <LinearLayout
@@ -317,7 +317,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="Distance 5"
+                                    android:text="199 km"
                                     android:textColor="#adb5bd"
                                     android:textSize="11dp" />
 
@@ -338,9 +338,9 @@
                             android:id="@+id/tile_image_6"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:contentDescription="xd"
+                            android:contentDescription="Biebrzański Park Narodowy"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/xd" />
+                            android:src="@drawable/kanalelblaski_zdj" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -356,7 +356,7 @@
                                 android:layout_height="wrap_content"
                                 android:background="#FFFFFF"
                                 android:gravity="center"
-                                android:text="Description 6"
+                                android:text="Kanał Elbląski"
                                 android:textColor="#000000" />
 
                             <LinearLayout
@@ -376,7 +376,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="Distance 6"
+                                    android:text="107 km"
                                     android:textColor="#adb5bd"
                                     android:textSize="11dp" />
 

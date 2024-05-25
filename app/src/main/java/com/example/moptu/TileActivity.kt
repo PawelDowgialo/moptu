@@ -17,17 +17,23 @@ class TileActivity : AppCompatActivity() {
         val imageView = findViewById<ImageView>(R.id.main_image)
         val titleTextView = findViewById<TextView>(R.id.title_text)
         val distanceTextView = findViewById<TextView>(R.id.distance_text)
+        val description_text = findViewById<TextView>(R.id.description_text)
+        val phoneTextView = findViewById<TextView>(R.id.phone_text)
         val addressTextView = findViewById<TextView>(R.id.address_text)
 
         val imageResource = intent.getIntExtra("image_resource", 0)
         val title = intent.getStringExtra("title")
         val distance = intent.getStringExtra("distance")
         val address = intent.getStringExtra("address")
+        val phone = intent.getStringExtra("phone")
+        val description = intent.getStringExtra("description")
 
         imageView.setImageResource(imageResource)
         titleTextView.text = title
         distanceTextView.text = distance
         addressTextView.text = address
+        phoneTextView.text = phone
+        description_text.text = description
 
         backButton.setOnClickListener {
             finish()
