@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "moptu"
 include(":app")
+//Made by Paweł Dowgiało
